@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Form</title>
+    <script src="chart.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+  <div class="header-container">
+    <div class="header">
+        <h1>Welcome to your online scholarship portal</h1>
+        <p>Kindly fill in the details below to apply for scholarship.</p>
+      </div>
+    </div>
+  <div class="big-container">
+      <h2 class="basic-details">Basic Details:</h2>
+  <div class="container">
+        <form class="form">
+          <div class="form-group">
+            <label for="fname">First name</label>
+            <input name="first_name" type="text" id="fname" class="inputs" />
+            <span class="error_msg" id="fname_error"></span>
+          </div>
+          <div class="form-group">
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" class="inputs" />
+            <span class="error_msg" id="lname_error"></span>
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" class="inputs" />
+            <span class="error_msg" id="age_error"></span>
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender" class="inputs">
+              <option value="">Select Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+            <span class="error_msg" id="gender_error"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="number" class="inputs" id="phone" />
+            <span class="error_msg" id="phone_error"></span>
+          </div>
+          <div class="form-group">
+            <label for="school">School</label>
+            <select id="school" class="inputs">
+              <option value="">Select School</option>
+              <option value="university">University</option>
+              <option value="polythecnic">Polythecnic</option>
+              <option value="college">College of Education</option>
+            </select>
+            <span class="error_msg" id="school_error"></span>
+          </div>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country" class="inputs">
+              <option value="">Select Country</option>
+              <option value="Africa">Africa</option>
+              <option value="South-America">South-America</option>
+              <option value="Asia">Asia</option>
+              <option value="North America">North America</option>
+              <option value="Others">Others</option>
+            </select>
+            <span class="error_msg" id="country_error"></span>
+          </div>
+    </div>
+
+    <h2 class="data" >WASSCE Results:</h2>
+    <div class="container">
+      <label for="Result-details"> Please input your scores for 8 WASSCE subjects. Plese note that Maths and English are compulsory for all applicants.</label>
+               <br>
+          <div class="score">
+              <div class="results">
+              <select type="text" id="maths" disabled placeholder="Mathematics">
+                  <option value="maths">Mathematics</option>
+              </select>
+              <span class="error_msg" id="math_error"></span>
+              <select type="text" id="english" disabled placeholder="English">
+                <option value="english">English</option>
+              </select>
+              <span class="error_msg" id="english_error"></span>
+              <select type="text" id="subj1" placeholder="Subject 1">
+                <option value="0">Select Subject</option>
+              </select>
+              <span class="error_msg" id="subject1_error"></span>
+              <select type="text" id="subj2" placeholder="Subject 2">
+                <option value="0">Select Subject</option>
+              </select>
+              <span class="error_msg" id="subject2_error"></span>
+              <select type="text" id="subj3" placeholder="Subject 3">
+                <option value="0">Select Subject</option>
+              </select>
+              <span class="error_msg" id="subject3_error"></span>
+              <select type="text" id="subj4" placeholder="Subject 4">
+                <option value="0">Select Subject</option>
+              </select>
+              <span class="error_msg" id="subject4_error"></span>
+              <select type="text" id="subj5" placeholder="Subject 5">
+                <option value="0">Select Subject</option>
+              </select>
+              <span class="error_msg" id="subject5_error"></span>
+              <select type="text" id="subj6" placeholder="Subject 6">
+                <option value="0">Select Subject</option>
+              </select>
+              <span class="error_msg" id="subject6_error"></span>
+            </div>
+            <div class="results">
+              <input type="number" id="score1" placeholder="Enter Score"/>
+              <span class="error_msg" id="score1_error"></span>
+              <input type="number" id="score2" placeholder="Enter Score"/>
+              <span class="error_msg" id="score2_error"></span>
+              <input type="number" id="score3" placeholder="Enter Score"/>
+              <span class="error_msg" id="score3_error"></span>
+              <input type="number" id="score4" placeholder="Enter Score"/>
+              <span class="error_msg" id="score4_error"></span>
+              <input type="number" id="score5" placeholder="Enter Score"/>
+              <span class="error_msg" id="score5_error"></span>
+              <input type="number" id="score6" placeholder="Enter Score"/>
+              <span class="error_msg" id="score6_error"></span>
+              <input type="number" id="score7" placeholder="Enter Score"/>
+              <span class="error_msg" id="score7_error"></span>
+              <input type="number" id="score8" placeholder="Enter Score"/>
+              <span class="error_msg" id="score8_error"></span>
+            </div>
+            <span class="error_msg"></span>
+          </div>
+          <div class="form-group">
+            <button type="button" id="btn">Submit</button>
+          </div>
+        </div>
+        </form>
+        
+        <h1 id="remark"></h1>
+        <div class="jsChart">
+          <canvas id="myChart"></canvas>
+      </div>
+      </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>

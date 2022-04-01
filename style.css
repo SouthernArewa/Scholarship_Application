@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  @media (min-width: 761px) {
+    .header-container {
+      width: 100%;
+      background-color: rgb(206, 100, 14);
+  }
+  .header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .header h1 {
+    font-size: 32px;
+    padding-bottom: 5px;
+  }
+  .big-container {
+    width: 90%;
+    color: rgb(233, 220, 220);
+  }
+  .header p {
+    font-size: 14px;
+  } 
+  }
+   .container { 
+    width: 75%;
+    margin: 20px auto;
+    color: rgb(56, 13, 11);
+  }
+  .basic-details {
+    margin: 10px ;
+    padding: 5px;
+    text-decoration: underline;
+    color: rgb(22, 2, 78);
+  }
+   .form-group { 
+    margin-bottom: 20px;
+  }
+  .form-group label,
+  .form-group input,
+  .form-group select {
+    display: block;
+  }
+  .form-group label {
+    font-size: 13px;
+    padding-bottom: 3px;
+  }
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #dedede;
+    outline: none;
+    font-size: 14px;
+  }
+  .form-group button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(206, 100, 14);
+    color: white;
+    border: none;
+    outline: none;
+  }
+  .results{
+    margin: 5%;
+  }
+    .score {
+      margin-bottom: 20px;
+      display: flex;
+    }
+    .score label,
+    .score input,
+    .score select {
+      display: block;
+    }
+    .score label {
+      font-size: 13px;
+      padding-bottom: 3px;
+    }
+    .score input,
+    .score select {
+      width: 100%;
+      padding: 10px 5px;
+      border: 1px solid #dedede;
+      outline: none;
+      font-size: 14px;
+    }
+    .score button {
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      background-color: rgb(206, 100, 14);
+      color: white;
+      border: none;
+      outline: none;
+    } 
+  .green-color {
+    color: green;
+    font-size: 13px;
+  }
+  .red-color {
+    color: red;
+    font-size: 13px;
+  }
+  .error_msg {
+    color: red;
+    font-size: 14px;
+  }
+ 
+.data {
+  margin: 10px ;
+    padding: 5px;
+    text-decoration: underline;
+    color: rgb(22, 2, 78);
+} 
+@media (max-width: 760px) {
+  .header-container {
+    width: 100%;
+    background-color: rgb(6, 70, 35);
+  }
+  .form-group button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color:rgb(6, 70, 35);
+    color: white;
+    border: none;
+    outline: none;
+  }
+  body {
+    min-height: 100%;
+    background-color: #eee;
+  }
+  .header {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .header h1 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .header p {
+    font-size: 10px;
+  }   
+  .container { 
+    width: 80%;
+    margin: 20px auto;
+    color: rgb(77, 10, 5);
+  }
+  
+.basic-details {
+  margin: 1%;
+  text-decoration: underline;
+  color: rgb(78, 11, 2);
+} 
+.data {
+  margin: 1%;
+  text-decoration: underline;
+  color: rgb(78, 11, 2);
+    }
+}
+   .form-group { 
+    margin-bottom: 20px;
+  }
+  .form-group label,
+  .form-group input,
+  .form-group select {
+    display: block;
+  }
+  .form-group label {
+    font-size: 13px;
+    padding-bottom: 3px;
+  }
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #dedede;
+    outline: none;
+    font-size: 14px;
+  }
+  .big-container {
+    width: 80%;
+    color: azure;
+  }
+  .green-color {
+    color: green;
+    font-size: 13px;
+  }
+  .red-color {
+    color: red;
+    font-size: 13px;
+  }
+  .error_msg {
+    color: red;
+    font-size: 14px;
+  } 
+  #subj1 {
+    color: rgb(4, 4, 56);
+  }
